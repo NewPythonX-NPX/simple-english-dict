@@ -619,6 +619,12 @@
       "example": "I readed that book.",
       "type": "verb"
     },
+	"reed": {
+      "definition": "current tense of read",
+      "original": "read (present)",
+      "example": "I'm reeding a book.",
+      "type": "verb"
+    },
     "rided": {
       "definition": "past tense of ride",
       "original": "rode",

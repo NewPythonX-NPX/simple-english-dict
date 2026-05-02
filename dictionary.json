@@ -19,6 +19,12 @@
       "example": "The lid was untight so it opened easily.",
       "type": "adjective"
     },
+    "gras": {
+      "definition": "deadly green thing",
+      "original": "grass",
+      "example": "Gras is deadly.",
+      "type": "noun"
+    },
     "sub con": {
       "definition": "without conscious thought; automatically",
       "original": "subconsciously",

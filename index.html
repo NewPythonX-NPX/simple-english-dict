@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple English Dictionary – NPX Studios</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f5f0;
+    color: #2e241f;
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #5a3e2b;
+    margin-bottom: 0.3rem;
+  }
+
+  .subtitle {
+    font-style: italic;
+    color: #8b7355;
+    font-size: 1.2rem;
+  }
+
+  .search-box {
+    width: 100%;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.1rem;
+    border: 2px solid #d6c7b9;
+    border-radius: 12px;
+    outline: none;
+    background: #fff;
+    margin-bottom: 2rem;
+    transition: border-color 0.2s;
+  }
+
+  .search-box:focus {
+    border-color: #c49a6c;
+  }
+
+  .entry {
+    background: #ffffff;
+    border-left: 5px solid #c49a6c;
+    margin-bottom: 1.6rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: transform 0.1s ease, box-shadow 0.1s;
+  }
+
+  .entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  }
+
+  .word {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3e2723;
+    margin-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .type-badge {
+    font-size: 0.8rem;
+    background: #c49a6c;
+    color: white;
+    padding: 0.2rem 0.7rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .definition {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0.3rem;
+    color: #2d2a26;
+  }
+
+  .example {
+    font-style: italic;
+    color: #6b5b4e;
+    margin: 0.4rem 0 0.7rem;
+    padding-left: 1rem;
+    border-left: 3px solid #e0d6c8;
+  }
+
+  .original {
+    font-size: 0.95rem;
+    color: #8b7b6b;
+    background: #f3efe7;
+    display: inline-block;
+    padding: 0.1rem 0.6rem;
+    border-radius: 6px;
+    margin-top: 0.3rem;
+  }
+
+  .no-results {
+    text-align: center;
+    color: #8b7355;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #b8a48c;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📖 Simple English Dictionary</h1>
+  <p class="subtitle">If it makes sense, it's allowed.</p>
+  <p style="color:#8b7355; font-size:0.9rem;">by Hori (NPX Studios) – v1.0.0</p>
+</header>
+
+<input type="text" class="search-box" id="searchInput" placeholder="Search a word... (e.g. untightest, sub con, nife)">
+
+<div id="dictionaryContainer"></div>
+
+<div class="no-results" id="noResults">No words found. Try a different spelling, bro.</div>
+
+<footer>
+  Made with ❤️ by NPX Studios – Last updated 2026-05-02
+</footer>
+
+<script>
+  // Fetch the JSON file (make sure dictionary.json is in the same folder)
+  fetch('dictionary.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Could not load dictionary.json');
+      return response.json();
+    })
+    .then(data => {
+      const words = data.words;
+      const container = document.getElementById('dictionaryContainer');
+      const searchInput = document.getElementById('searchInput');
+      const noResults = document.getElementById('noResults');
+
+      // Build all entry HTML strings
+      function renderEntries(filter = '') {
+        container.innerHTML = '';
+        let visibleCount = 0;
+        const lowerFilter = filter.toLowerCase().trim();
+
+        for (const [word, details] of Object.entries(words)) {
+          // Search in word, definition, original, example
+          if (lowerFilter && !(
+            word.toLowerCase().includes(lowerFilter) ||
+            details.definition.toLowerCase().includes(lowerFilter) ||
+            details.original.toLowerCase().includes(lowerFilter) ||
+            details.example.toLowerCase().includes(lowerFilter)
+          )) continue;
+
+          visibleCount++;
+          const type = details.type || 'word';
+          const entryDiv = document.createElement('div');
+          entryDiv.className = 'entry';
+
+          entryDiv.innerHTML = `
+            <div class="word">
+              <span>${escapeHtml(word)}</span>
+              <span class="type-badge">${escapeHtml(type)}</span>
+            </div>
+            <div class="definition">${escapeHtml(details.definition)}</div>
+            <div class="example">“${escapeHtml(details.example)}”</div>
+            <span class="original">${escapeHtml(details.original)}</span>
+          `;
+
+          container.appendChild(entryDiv);
+        }
+
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+
+      // Escape HTML to prevent XSS
+      function escapeHtml(text) {
+        const map = {
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#039;'
+        };
+        return text.replace(/[&<>"']/g, m => map[m]);
+      }
+
+      // Initial render
+      renderEntries();
+
+      // Search on input
+      searchInput.addEventListener('input', e => renderEntries(e.target.value));
+    })
+    .catch(error => {
+      document.getElementById('dictionaryContainer').innerHTML = 
+        `<p style="color:red; text-align:center;">Error loading dictionary: ${error.message}.<br>Make sure "dictionary.json" is in the same folder.</p>`;
+    });
+</script>
+
+</body>
+</html>

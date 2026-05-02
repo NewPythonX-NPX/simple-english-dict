@@ -1,0 +1,2229 @@
+{
+  "metadata": {
+    "name": "Simple English Dictionary",
+    "version": "1.5.0",
+    "author": "Hori (NPX Studios)",
+    "motto": "If it makes sense, it's allowed.",
+    "last_updated": "2026-05-02"
+  },
+  "words": {
+    "untightest": {
+      "definition": "the least tight; maximum looseness",
+      "original": "loosest",
+      "example": "My safety filters are the untightest in the game.",
+      "type": "adjective"
+    },
+    "untight": {
+      "definition": "not tight",
+      "original": "loose",
+      "example": "The lid was untight so it opened easily.",
+      "type": "adjective"
+    },
+    "sub con": {
+      "definition": "without conscious thought; automatically",
+      "original": "subconsciously",
+      "example": "I sub con swore in math class again.",
+      "type": "adverb"
+    },
+    "cons": {
+      "definition": "with conscious intent; on purpose",
+      "original": "consciously",
+      "example": "I had to cons stop myself from laughing.",
+      "type": "adverb"
+    },
+    "uncons": {
+      "definition": "1. not conscious (adjective). 2. without awareness (adverb)",
+      "original": "unconscious / unconsciously",
+      "example": "He was uncons after the fall. She uncons dropped her phone.",
+      "type": "adjective / adverb"
+    },
+    "longwordphobia": {
+      "definition": "fear of long words",
+      "original": "hippopotomonstrosesquippedaliophobia",
+      "example": "Bro has longwordphobia, don't show him the Welsh village name.",
+      "type": "noun"
+    },
+    "super califrag": {
+      "definition": "something amazing or extraordinary",
+      "original": "supercalifragilisticexpialidocious",
+      "example": "That code was super califrag.",
+      "type": "adjective"
+    },
+    "nite": {
+      "definition": "a warrior on horseback in medieval times",
+      "original": "knight",
+      "example": "The nite saved the princess.",
+      "type": "noun"
+    },
+    "writ": {
+      "definition": "to mark letters or words on a surface",
+      "original": "write",
+      "example": "writ your name here.",
+      "type": "verb"
+    },
+    "thru": {
+      "definition": "moving in one side and out the other",
+      "original": "through",
+      "example": "We walked thru the door.",
+      "type": "preposition"
+    },
+    "tho": {
+      "definition": "despite the fact that",
+      "original": "though",
+      "example": "I like it tho.",
+      "type": "conjunction"
+    },
+    "tuff": {
+      "definition": "difficult to break or bend",
+      "original": "tough",
+      "example": "That test was tuff.",
+      "type": "adjective"
+    },
+    "coff": {
+      "definition": "to expel air from the lungs with a sudden sound",
+      "original": "cough",
+      "example": "I can't stop coffing.",
+      "type": "verb"
+    },
+    "enuff": {
+      "definition": "as much as needed",
+      "original": "enough",
+      "example": "That's enuff.",
+      "type": "adjective"
+    },
+    "runned": {
+      "definition": "past tense of run",
+      "original": "ran",
+      "example": "I runned to the store.",
+      "type": "verb"
+    },
+    "eated": {
+      "definition": "past tense of eat",
+      "original": "ate",
+      "example": "I eated all the pizza.",
+      "type": "verb"
+    },
+    "goed": {
+      "definition": "past tense of go",
+      "original": "went",
+      "example": "I goed to school.",
+      "type": "verb"
+    },
+    "childs": {
+      "definition": "more than one child",
+      "original": "children",
+      "example": "There are five childs in the class.",
+      "type": "noun"
+    },
+    "mouses": {
+      "definition": "more than one mouse",
+      "original": "mice",
+      "example": "Two mouses escaped.",
+      "type": "noun"
+    },
+    "gooses": {
+      "definition": "more than one goose",
+      "original": "geese",
+      "example": "The gooses crossed the road.",
+      "type": "noun"
+    },
+    "tooths": {
+      "definition": "more than one tooth",
+      "original": "teeth",
+      "example": "Brush your tooths.",
+      "type": "noun"
+    },
+    "foots": {
+      "definition": "more than one foot",
+      "original": "feet",
+      "example": "My foots hurt.",
+      "type": "noun"
+    },
+    "sykology": {
+      "definition": "the study of the mind and behavior",
+      "original": "psychology",
+      "example": "I'm taking sykology class.",
+      "type": "noun"
+    },
+    "newmonia": {
+      "definition": "a lung infection",
+      "original": "pneumonia",
+      "example": "He got newmonia.",
+      "type": "noun"
+    },
+    "dout": {
+      "definition": "uncertainty about something",
+      "original": "doubt",
+      "example": "I dout it.",
+      "type": "noun"
+    },
+    "yeah": {
+      "definition": "affirmative; yes",
+      "original": "True (in programming)",
+      "example": "if yeah: print('it's true')",
+      "type": "boolean"
+    },
+    "nah": {
+      "definition": "negative; no",
+      "original": "False (in programming)",
+      "example": "if nah: print('this never runs')",
+      "type": "boolean"
+    },
+    "server": {
+      "definition": "a person who serves food",
+      "original": "waiter or waitress",
+      "example": "The server brought our drinks.",
+      "type": "noun"
+    },
+    "cop": {
+      "definition": "a law enforcement officer",
+      "original": "policeman or policewoman",
+      "example": "The cop helped us.",
+      "type": "noun"
+    },
+    "unbig": {
+      "definition": "not big; small",
+      "original": "small",
+      "example": "My apartment is unbig but cozy.",
+      "type": "adjective"
+    },
+    "unfast": {
+      "definition": "not fast; slow",
+      "original": "slow",
+      "example": "The internet is unfast today.",
+      "type": "adjective"
+    },
+    "unhard": {
+      "definition": "not hard; soft or easy",
+      "original": "soft/easy",
+      "example": "This pillow is unhard.",
+      "type": "adjective"
+    },
+    "ungood": {
+      "definition": "not good; bad",
+      "original": "bad",
+      "example": "That movie was ungood.",
+      "type": "adjective"
+    },
+    "unnew": {
+      "definition": "not new; old",
+      "original": "old",
+      "example": "He drives an unnew car.",
+      "type": "adjective"
+    },
+    "unrich": {
+      "definition": "not rich; poor",
+      "original": "poor",
+      "example": "They grew up unrich.",
+      "type": "adjective"
+    },
+    "unpossible": {
+      "definition": "not possible",
+      "original": "impossible",
+      "example": "It's unpossible to finish today.",
+      "type": "adjective"
+    },
+    "naw": {
+      "definition": "to bite or chew persistently",
+      "original": "gnaw",
+      "example": "The dog nawed the bone.",
+      "type": "verb"
+    },
+    "nat": {
+      "definition": "a small flying insect",
+      "original": "gnat",
+      "example": "A nat flew in my ear.",
+      "type": "noun"
+    },
+    "nome": {
+      "definition": "a mythical dwarf-like creature",
+      "original": "gnome",
+      "example": "A garden nome.",
+      "type": "noun"
+    },
+    "no": {
+      "definition": "to have information in your mind",
+      "original": "know",
+      "example": "I no the answer.",
+      "type": "verb"
+    },
+    "nee": {
+      "definition": "the joint between the thigh and lower leg",
+      "original": "knee",
+      "example": "I scraped my nee.",
+      "type": "noun"
+    },
+    "nock": {
+      "definition": "to strike a surface noisily",
+      "original": "knock",
+      "example": "Nock on the door.",
+      "type": "verb"
+    },
+    "nife": {
+      "definition": "a tool for cutting",
+      "original": "knife",
+      "example": "Pass me the nife.",
+      "type": "noun"
+    },
+    "rite": {
+      "definition": "to mark letters or words on a surface",
+      "original": "write",
+      "example": "Rite your name here.",
+      "type": "verb"
+    },
+    "rong": {
+      "definition": "opposite of correct; not correct",
+      "original": "wrong",
+      "example": "That answer is rong.",
+      "type": "adjective"
+    },
+    "reck": {
+      "definition": "to destroy or damage",
+      "original": "wreck",
+      "example": "The storm recked the pier.",
+      "type": "verb"
+    },
+    "rist": {
+      "definition": "the joint connecting hand and arm",
+      "original": "wrist",
+      "example": "I hurt my rist.",
+      "type": "noun"
+    },
+    "rinkle": {
+      "definition": "a small fold in skin or fabric",
+      "original": "wrinkle",
+      "example": "Iron out the rinkles.",
+      "type": "noun"
+    },
+    "anser": {
+      "definition": "a reply or solution",
+      "original": "answer",
+      "example": "What's your anser?",
+      "type": "noun"
+    },
+    "sord": {
+      "definition": "a bladed weapon",
+      "original": "sword",
+      "example": "He drew his sord.",
+      "type": "noun"
+    },
+    "cassle": {
+      "definition": "a large fortified building",
+      "original": "castle",
+      "example": "The cassle on the hill.",
+      "type": "noun"
+    },
+    "lissen": {
+      "definition": "to pay attention to sound",
+      "original": "listen",
+      "example": "Lissen to this song.",
+      "type": "verb"
+    },
+    "offen": {
+      "definition": "frequently",
+      "original": "often",
+      "example": "I offen go there.",
+      "type": "adverb"
+    },
+    "soffen": {
+      "definition": "to make or become soft",
+      "original": "soften",
+      "example": "Soften the butter.",
+      "type": "verb"
+    },
+    "fassen": {
+      "definition": "to secure or attach",
+      "original": "fasten",
+      "example": "Fassen your seatbelt.",
+      "type": "verb"
+    },
+    "hassen": {
+      "definition": "to hurry",
+      "original": "hasten",
+      "example": "Hassen up!",
+      "type": "verb"
+    },
+    "wissle": {
+      "definition": "to make a high sound by blowing",
+      "original": "whistle",
+      "example": "He wissled a tune.",
+      "type": "verb"
+    },
+    "laff": {
+      "definition": "to express joy audibly",
+      "original": "laugh",
+      "example": "Don't laff at me.",
+      "type": "verb"
+    },
+    "ruff": {
+      "definition": "not smooth; harsh",
+      "original": "rough",
+      "example": "The trail was ruff.",
+      "type": "adjective"
+    },
+    "thoro": {
+      "definition": "complete; with great attention",
+      "original": "thorough",
+      "example": "She did a thoro job.",
+      "type": "adjective"
+    },
+    "altho": {
+      "definition": "even though",
+      "original": "although",
+      "example": "Altho it rained, we went.",
+      "type": "conjunction"
+    },
+    "naut": {
+      "definition": "zero; nothing",
+      "original": "nought",
+      "example": "The score was naut.",
+      "type": "noun"
+    },
+    "plow": {
+      "definition": "a farm tool for tilling soil",
+      "original": "plough",
+      "example": "Hitch the horse to the plow.",
+      "type": "noun"
+    },
+    "boro": {
+      "definition": "a town or district",
+      "original": "borough",
+      "example": "The London boro of Camden.",
+      "type": "noun"
+    },
+    "naybor": {
+      "definition": "a person living nearby",
+      "original": "neighbour/neighbor",
+      "example": "My naybor is friendly.",
+      "type": "noun"
+    },
+    "hite": {
+      "definition": "measurement from base to top",
+      "original": "height",
+      "example": "The hite of the mountain.",
+      "type": "noun"
+    },
+    "wate": {
+      "definition": "heaviness; mass",
+      "original": "weight",
+      "example": "Lift the wate.",
+      "type": "noun"
+    },
+    "eyt": {
+      "definition": "the number 8",
+      "original": "eight",
+      "example": "I have eyt apples.",
+      "type": "number"
+    },
+    "syt": {
+      "definition": "the ability to see; a view",
+      "original": "sight",
+      "example": "A beautiful syt.",
+      "type": "noun"
+    },
+    "nu": {
+      "definition": "past tense of know",
+      "original": "knew",
+      "example": "I nu it all along.",
+      "type": "verb"
+    },
+    "rited": {
+      "definition": "past tense of rite (write)",
+      "original": "wrote",
+      "example": "I rited a letter.",
+      "type": "verb"
+    },
+    "swimmed": {
+      "definition": "past tense of swim",
+      "original": "swam",
+      "example": "We swimmed in the lake.",
+      "type": "verb"
+    },
+    "singed": {
+      "definition": "past tense of sing",
+      "original": "sang",
+      "example": "She singed beautifully.",
+      "type": "verb"
+    },
+    "beginned": {
+      "definition": "past tense of begin",
+      "original": "began",
+      "example": "It beginned to rain.",
+      "type": "verb"
+    },
+    "breaked": {
+      "definition": "past tense of break",
+      "original": "broke",
+      "example": "I breaked my phone.",
+      "type": "verb"
+    },
+    "bringed": {
+      "definition": "past tense of bring",
+      "original": "brought",
+      "example": "She bringed snacks.",
+      "type": "verb"
+    },
+    "buyed": {
+      "definition": "past tense of buy",
+      "original": "bought",
+      "example": "He buyed a car.",
+      "type": "verb"
+    },
+    "catched": {
+      "definition": "past tense of catch",
+      "original": "caught",
+      "example": "I catched a cold.",
+      "type": "verb"
+    },
+    "choosed": {
+      "definition": "past tense of choose",
+      "original": "chose",
+      "example": "She choosed the red one.",
+      "type": "verb"
+    },
+    "comed": {
+      "definition": "past tense of come",
+      "original": "came",
+      "example": "They comed early.",
+      "type": "verb"
+    },
+    "doed": {
+      "definition": "past tense of do",
+      "original": "did",
+      "example": "I doed my homework.",
+      "type": "verb"
+    },
+    "drinked": {
+      "definition": "past tense of drink",
+      "original": "drank",
+      "example": "He drinked water.",
+      "type": "verb"
+    },
+    "drived": {
+      "definition": "past tense of drive",
+      "original": "drove",
+      "example": "We drived to the beach.",
+      "type": "verb"
+    },
+    "falled": {
+      "definition": "past tense of fall",
+      "original": "fell",
+      "example": "The book falled off.",
+      "type": "verb"
+    },
+    "fighted": {
+      "definition": "past tense of fight",
+      "original": "fought",
+      "example": "They fighted bravely.",
+      "type": "verb"
+    },
+    "finded": {
+      "definition": "past tense of find",
+      "original": "found",
+      "example": "I finded my keys.",
+      "type": "verb"
+    },
+    "flyed": {
+      "definition": "past tense of fly",
+      "original": "flew",
+      "example": "The bird flyed away.",
+      "type": "verb"
+    },
+    "forgeted": {
+      "definition": "past tense of forget",
+      "original": "forgot",
+      "example": "I forgeted my password.",
+      "type": "verb"
+    },
+    "gived": {
+      "definition": "past tense of give",
+      "original": "gave",
+      "example": "She gived me a gift.",
+      "type": "verb"
+    },
+    "growed": {
+      "definition": "past tense of grow",
+      "original": "grew",
+      "example": "The plant growed fast.",
+      "type": "verb"
+    },
+    "hided": {
+      "definition": "past tense of hide",
+      "original": "hid",
+      "example": "He hided behind the door.",
+      "type": "verb"
+    },
+    "holded": {
+      "definition": "past tense of hold",
+      "original": "held",
+      "example": "She holded the baby.",
+      "type": "verb"
+    },
+    "keeped": {
+      "definition": "past tense of keep",
+      "original": "kept",
+      "example": "I keeped the receipt.",
+      "type": "verb"
+    },
+    "knowed": {
+      "definition": "past tense of know",
+      "original": "knew",
+      "example": "I knowed the truth.",
+      "type": "verb"
+    },
+    "leaved": {
+      "definition": "past tense of leave",
+      "original": "left",
+      "example": "They leaved early.",
+      "type": "verb"
+    },
+    "losed": {
+      "definition": "past tense of lose",
+      "original": "lost",
+      "example": "I losed my wallet.",
+      "type": "verb"
+    },
+    "maked": {
+      "definition": "past tense of make",
+      "original": "made",
+      "example": "He maked a cake.",
+      "type": "verb"
+    },
+    "meeted": {
+      "definition": "past tense of meet",
+      "original": "met",
+      "example": "We meeted at noon.",
+      "type": "verb"
+    },
+    "payed": {
+      "definition": "past tense of pay",
+      "original": "paid",
+      "example": "I payed the bill.",
+      "type": "verb"
+    },
+    "putted": {
+      "definition": "past tense of put",
+      "original": "put",
+      "example": "She putted it there.",
+      "type": "verb"
+    },
+    "readed": {
+      "definition": "past tense of read",
+      "original": "read (past)",
+      "example": "I readed that book.",
+      "type": "verb"
+    },
+    "rided": {
+      "definition": "past tense of ride",
+      "original": "rode",
+      "example": "We rided bikes.",
+      "type": "verb"
+    },
+    "ringed": {
+      "definition": "past tense of ring",
+      "original": "rang",
+      "example": "The bell ringed.",
+      "type": "verb"
+    },
+    "rised": {
+      "definition": "past tense of rise",
+      "original": "rose",
+      "example": "The sun rised.",
+      "type": "verb"
+    },
+    "sayed": {
+      "definition": "past tense of say",
+      "original": "said",
+      "example": "He sayed hello.",
+      "type": "verb"
+    },
+    "seedd": {
+      "definition": "past tense of see",
+      "original": "saw",
+      "example": "I seedd a movie.",
+      "type": "verb"
+    },
+    "seeked": {
+      "definition": "past tense of seek",
+      "original": "sought",
+      "example": "They seeked help.",
+      "type": "verb"
+    },
+    "selled": {
+      "definition": "past tense of sell",
+      "original": "sold",
+      "example": "She selled her car.",
+      "type": "verb"
+    },
+    "sitted": {
+      "definition": "past tense of sit",
+      "original": "sat",
+      "example": "We sitted down.",
+      "type": "verb"
+    },
+    "sleeped": {
+      "definition": "past tense of sleep",
+      "original": "slept",
+      "example": "I sleeped well.",
+      "type": "verb"
+    },
+    "speaked": {
+      "definition": "past tense of speak",
+      "original": "spoke",
+      "example": "He speaked softly.",
+      "type": "verb"
+    },
+    "spended": {
+      "definition": "past tense of spend",
+      "original": "spent",
+      "example": "I spended all my money.",
+      "type": "verb"
+    },
+    "standed": {
+      "definition": "past tense of stand",
+      "original": "stood",
+      "example": "She standed in line.",
+      "type": "verb"
+    },
+    "stealed": {
+      "definition": "past tense of steal",
+      "original": "stole",
+      "example": "Someone stealed my bike.",
+      "type": "verb"
+    },
+    "sticked": {
+      "definition": "past tense of stick",
+      "original": "stuck",
+      "example": "The key sticked.",
+      "type": "verb"
+    },
+    "taked": {
+      "definition": "past tense of take",
+      "original": "took",
+      "example": "I taked a photo.",
+      "type": "verb"
+    },
+    "teached": {
+      "definition": "past tense of teach",
+      "original": "taught",
+      "example": "She teached me math.",
+      "type": "verb"
+    },
+    "telled": {
+      "definition": "past tense of tell",
+      "original": "told",
+      "example": "He telled a story.",
+      "type": "verb"
+    },
+    "thinked": {
+      "definition": "past tense of think",
+      "original": "thought",
+      "example": "I thinked about it.",
+      "type": "verb"
+    },
+    "throwed": {
+      "definition": "past tense of throw",
+      "original": "threw",
+      "example": "He throwed the ball.",
+      "type": "verb"
+    },
+    "understanded": {
+      "definition": "past tense of understand",
+      "original": "understood",
+      "example": "I understanded the lesson.",
+      "type": "verb"
+    },
+    "waked": {
+      "definition": "past tense of wake",
+      "original": "woke",
+      "example": "I waked up late.",
+      "type": "verb"
+    },
+    "weared": {
+      "definition": "past tense of wear",
+      "original": "wore",
+      "example": "She weared a hat.",
+      "type": "verb"
+    },
+    "winned": {
+      "definition": "past tense of win",
+      "original": "won",
+      "example": "Our team winned.",
+      "type": "verb"
+    },
+    "mans": {
+      "definition": "plural of man",
+      "original": "men",
+      "example": "Three mans waited outside.",
+      "type": "noun"
+    },
+    "womans": {
+      "definition": "plural of woman",
+      "original": "women",
+      "example": "The womans met for coffee.",
+      "type": "noun"
+    },
+    "sheeps": {
+      "definition": "plural of sheep",
+      "original": "sheep",
+      "example": "Five sheeps in the field.",
+      "type": "noun"
+    },
+    "deers": {
+      "definition": "plural of deer",
+      "original": "deer",
+      "example": "Two deers crossed the road.",
+      "type": "noun"
+    },
+    "fishs": {
+      "definition": "plural of fish",
+      "original": "fish",
+      "example": "I caught three fishs.",
+      "type": "noun"
+    },
+    "oxes": {
+      "definition": "plural of ox",
+      "original": "oxen",
+      "example": "The oxes pulled the cart.",
+      "type": "noun"
+    },
+    "louses": {
+      "definition": "plural of louse",
+      "original": "lice",
+      "example": "Check for louses.",
+      "type": "noun"
+    },
+    "dies": {
+      "definition": "plural of die (dice)",
+      "original": "dice",
+      "example": "Roll the dies.",
+      "type": "noun"
+    },
+    "cactuses": {
+      "definition": "plural of cactus",
+      "original": "cacti",
+      "example": "Desert full of cactuses.",
+      "type": "noun"
+    },
+    "funguses": {
+      "definition": "plural of fungus",
+      "original": "fungi",
+      "example": "Some funguses are poisonous.",
+      "type": "noun"
+    },
+    "alumnuses": {
+      "definition": "plural of alumnus",
+      "original": "alumni",
+      "example": "The alumnuses donated.",
+      "type": "noun"
+    },
+    "criterions": {
+      "definition": "plural of criterion",
+      "original": "criteria",
+      "example": "Meet all criterions.",
+      "type": "noun"
+    },
+    "phenomenons": {
+      "definition": "plural of phenomenon",
+      "original": "phenomena",
+      "example": "Strange phenomenons.",
+      "type": "noun"
+    },
+    "bacteriums": {
+      "definition": "plural of bacterium",
+      "original": "bacteria",
+      "example": "Bacteriums grow fast.",
+      "type": "noun"
+    },
+    "datums": {
+      "definition": "plural of datum",
+      "original": "data",
+      "example": "Many datums were collected.",
+      "type": "noun"
+    },
+    "mediums": {
+      "definition": "plural of medium",
+      "original": "media",
+      "example": "Social mediums.",
+      "type": "noun"
+    },
+    "millenniums": {
+      "definition": "plural of millennium",
+      "original": "millennia",
+      "example": "Over the millenniums.",
+      "type": "noun"
+    },
+    "spectrums": {
+      "definition": "plural of spectrum",
+      "original": "spectra",
+      "example": "Different light spectrums.",
+      "type": "noun"
+    },
+    "radiuses": {
+      "definition": "plural of radius",
+      "original": "radii",
+      "example": "Measure the radiuses.",
+      "type": "noun"
+    },
+    "indexes": {
+      "definition": "plural of index",
+      "original": "indices",
+      "example": "Check the indexes.",
+      "type": "noun"
+    },
+    "vertexes": {
+      "definition": "plural of vertex",
+      "original": "vertices",
+      "example": "Connect vertexes.",
+      "type": "noun"
+    },
+    "matrixes": {
+      "definition": "plural of matrix",
+      "original": "matrices",
+      "example": "Multiply matrixes.",
+      "type": "noun"
+    },
+    "appendixes": {
+      "definition": "plural of appendix",
+      "original": "appendices",
+      "example": "See appendixes for details.",
+      "type": "noun"
+    },
+    "firefighter": {
+      "definition": "a person who extinguishes fires",
+      "original": "fireman",
+      "example": "The firefighter saved the cat.",
+      "type": "noun"
+    },
+    "flight attendant": {
+      "definition": "a crew member on an aircraft",
+      "original": "steward/stewardess",
+      "example": "Ask the flight attendant.",
+      "type": "noun"
+    },
+    "mail carrier": {
+      "definition": "a person who delivers mail",
+      "original": "postman/mailman",
+      "example": "The mail carrier came late.",
+      "type": "noun"
+    },
+    "businessperson": {
+      "definition": "a person engaged in business",
+      "original": "businessman/businesswoman",
+      "example": "A successful businessperson.",
+      "type": "noun"
+    },
+    "salesperson": {
+      "definition": "a person who sells products",
+      "original": "salesman/saleswoman",
+      "example": "The salesperson was helpful.",
+      "type": "noun"
+    },
+    "spokesperson": {
+      "definition": "a person who speaks for a group",
+      "original": "spokesman/spokeswoman",
+      "example": "A spokesperson gave a statement.",
+      "type": "noun"
+    },
+    "u": {
+      "definition": "second person pronoun",
+      "original": "you",
+      "example": "U are welcome.",
+      "type": "pronoun"
+    },
+    "r": {
+      "definition": "present tense of be (second person/plural)",
+      "original": "are",
+      "example": "U r smart.",
+      "type": "verb"
+    },
+    "y": {
+      "definition": "for what reason",
+      "original": "why",
+      "example": "Y did u do that?",
+      "type": "adverb"
+    },
+    "c": {
+      "definition": "to perceive with the eyes",
+      "original": "see",
+      "example": "C u later!",
+      "type": "verb"
+    },
+    "color": {
+      "definition": "visual attribute resulting from light",
+      "original": "colour",
+      "example": "What color is it?",
+      "type": "noun"
+    },
+    "favorite": {
+      "definition": "preferred above all others",
+      "original": "favourite",
+      "example": "My favorite song.",
+      "type": "adjective"
+    },
+    "thot": {
+      "definition": "an idea or opinion; past tense of think",
+      "original": "thought",
+      "example": "I thot about it.",
+      "type": "noun/verb"
+    },
+    "bot": {
+      "definition": "past tense of buy",
+      "original": "bought",
+      "example": "I bot some milk.",
+      "type": "verb"
+    },
+    "brot": {
+      "definition": "past tense of bring",
+      "original": "brought",
+      "example": "She brot a friend.",
+      "type": "verb"
+    },
+    "faut": {
+      "definition": "past tense of fight",
+      "original": "fought",
+      "example": "They faut for freedom.",
+      "type": "verb"
+    },
+    "worthlessing": {
+      "definition": "the act of estimating something as worthless",
+      "original": "floccinaucinihilipilification",
+      "example": "That's just worthlessing.",
+      "type": "noun"
+    },
+    "dict": {
+      "definition": "a collection of words with definitions; a dictionary",
+      "original": "dictionary",
+      "example": "Check the Simple English dict.",
+      "type": "noun"
+    },
+    "cofe": {
+      "definition": "a warm drink that adults drink; contains caffeine",
+      "original": "coffee",
+      "example": "My mom drinks cofe in the morning.",
+      "type": "noun"
+    },
+    "nuu": {
+      "definition": "something that's not old; brand new",
+      "original": "new",
+      "example": "My dad drives a nuu car in the morning to work.",
+      "type": "adjective"
+    },
+    "eng": {
+      "definition": "a shorter version for the English language",
+      "original": "English",
+      "example": "I love Simple Eng.",
+      "type": "noun"
+    },
+    "da": {
+      "definition": "the (definite article)",
+      "original": "the",
+      "example": "Da goat is simple eng.",
+      "type": "article"
+    },
+    "unportable": {
+      "definition": "not portable; tied to a specific location or system",
+      "original": "not portable, hardcoded",
+      "example": "My license manager was unportable until I changed the hardcoded paths.",
+      "type": "adjective"
+    },
+
+    "twelf": {
+      "definition": "the number 12",
+      "original": "twelve",
+      "example": "I have twelf eggs.",
+      "type": "number"
+    },
+    "thirteen": {
+      "definition": "the number 13",
+      "original": "thirteen",
+      "example": "There are thirteen cookies.",
+      "type": "number"
+    },
+    "fifteen": {
+      "definition": "the number 15",
+      "original": "fifteen",
+      "example": "She is fifteen years old.",
+      "type": "number"
+    },
+    "twentee": {
+      "definition": "the number 20",
+      "original": "twenty",
+      "example": "I have twenty dollars.",
+      "type": "number"
+    },
+    "thirtee": {
+      "definition": "the number 30",
+      "original": "thirty",
+      "example": "He is thirty today.",
+      "type": "number"
+    },
+    "fourtee": {
+      "definition": "the number 40",
+      "original": "forty",
+      "example": "She is fourtee years old.",
+      "type": "number"
+    },
+    "fiftee": {
+      "definition": "the number 50",
+      "original": "fifty",
+      "example": "There are fiftee states.",
+      "type": "number"
+    },
+    "hundred": {
+      "definition": "the number 100",
+      "original": "hundred",
+      "example": "A hundred dollars.",
+      "type": "number"
+    },
+    "thousand": {
+      "definition": "the number 1000",
+      "original": "thousand",
+      "example": "A thousand reasons.",
+      "type": "number"
+    },
+    "million": {
+      "definition": "the number 1,000,000",
+      "original": "million",
+      "example": "A million stars.",
+      "type": "number"
+    },
+    "billion": {
+      "definition": "the number 1,000,000,000",
+      "original": "billion",
+      "example": "Seven billion people.",
+      "type": "number"
+    },
+
+    "monday": {
+      "definition": "first day of the work week",
+      "original": "Monday",
+      "example": "I hate mondays.",
+      "type": "noun"
+    },
+    "tuesday": {
+      "definition": "second day of the week",
+      "original": "Tuesday",
+      "example": "Taco tuesday!",
+      "type": "noun"
+    },
+    "wednesday": {
+      "definition": "middle day of the week",
+      "original": "Wednesday",
+      "example": "Hump day, wednesday.",
+      "type": "noun"
+    },
+    "thursday": {
+      "definition": "fourth day of the week",
+      "original": "Thursday",
+      "example": "Throwback thursday.",
+      "type": "noun"
+    },
+    "friday": {
+      "definition": "end of the work week",
+      "original": "Friday",
+      "example": "TGIF – thank goodness it's friday!",
+      "type": "noun"
+    },
+    "saturday": {
+      "definition": "day of rest and fun",
+      "original": "Saturday",
+      "example": "Party on saturday.",
+      "type": "noun"
+    },
+    "sunday": {
+      "definition": "day of rest",
+      "original": "Sunday",
+      "example": "Late breakfast on sunday.",
+      "type": "noun"
+    },
+
+    "january": {
+      "definition": "first month of the year",
+      "original": "January",
+      "example": "New Year's Day is in january.",
+      "type": "noun"
+    },
+    "february": {
+      "definition": "second month, often misspelled as febuary",
+      "original": "February",
+      "example": "Valentine's Day is in february.",
+      "type": "noun"
+    },
+    "march": {
+      "definition": "third month",
+      "original": "March",
+      "example": "Spring begins in march.",
+      "type": "noun"
+    },
+    "april": {
+      "definition": "fourth month",
+      "original": "April",
+      "example": "April showers.",
+      "type": "noun"
+    },
+    "may": {
+      "definition": "fifth month",
+      "original": "May",
+      "example": "May flowers.",
+      "type": "noun"
+    },
+    "june": {
+      "definition": "sixth month",
+      "original": "June",
+      "example": "School ends in june.",
+      "type": "noun"
+    },
+    "july": {
+      "definition": "seventh month",
+      "original": "July",
+      "example": "Independence Day is in july.",
+      "type": "noun"
+    },
+    "august": {
+      "definition": "eighth month",
+      "original": "August",
+      "example": "Hot weather in august.",
+      "type": "noun"
+    },
+    "september": {
+      "definition": "ninth month",
+      "original": "September",
+      "example": "Back to school in september.",
+      "type": "noun"
+    },
+    "october": {
+      "definition": "tenth month",
+      "original": "October",
+      "example": "Halloween is in october.",
+      "type": "noun"
+    },
+    "november": {
+      "definition": "eleventh month",
+      "original": "November",
+      "example": "Thanksgiving is in november.",
+      "type": "noun"
+    },
+    "december": {
+      "definition": "twelfth month",
+      "original": "December",
+      "example": "Christmas is in december.",
+      "type": "noun"
+    },
+
+    "brite": {
+      "definition": "shining strongly; intelligent",
+      "original": "bright",
+      "example": "The sun is very brite today.",
+      "type": "adjective"
+    },
+    "lite": {
+      "definition": "not heavy; pale",
+      "original": "light",
+      "example": "I need a lite jacket.",
+      "type": "adjective"
+    },
+    "fone": {
+      "definition": "a device for voice communication",
+      "original": "phone",
+      "example": "My fone battery died.",
+      "type": "noun"
+    },
+    "foto": {
+      "definition": "a picture taken with a camera",
+      "original": "photo",
+      "example": "Take a foto of the sunset.",
+      "type": "noun"
+    },
+    "teknology": {
+      "definition": "applied science for practical purposes",
+      "original": "technology",
+      "example": "Teknology is advancing fast.",
+      "type": "noun"
+    },
+    "skool": {
+      "definition": "an institution for learning",
+      "original": "school",
+      "example": "I walk to skool every day.",
+      "type": "noun"
+    },
+    "gitar": {
+      "definition": "a stringed musical instrument",
+      "original": "guitar",
+      "example": "He plays the gitar.",
+      "type": "noun"
+    },
+    "piano": {
+      "definition": "a large keyboard instrument",
+      "original": "piano",
+      "example": "She takes piano lessons.",
+      "type": "noun"
+    },
+    "drums": {
+      "definition": "percussion instruments",
+      "original": "drums",
+      "example": "He plays the drums.",
+      "type": "noun"
+    },
+    "trumpet": {
+      "definition": "a brass wind instrument",
+      "original": "trumpet",
+      "example": "He blows the trumpet.",
+      "type": "noun"
+    },
+    "saxofone": {
+      "definition": "a woodwind instrument",
+      "original": "saxophone",
+      "example": "A smooth saxofone solo.",
+      "type": "noun"
+    },
+    "violeen": {
+      "definition": "a string instrument played with a bow",
+      "original": "violin",
+      "example": "She plays the violeen beautifully.",
+      "type": "noun"
+    },
+    "harp": {
+      "definition": "a plucked string instrument",
+      "original": "harp",
+      "example": "Angels play the harp.",
+      "type": "noun"
+    },
+    "flute": {
+      "definition": "a woodwind instrument",
+      "original": "flute",
+      "example": "The flute sounds like birds.",
+      "type": "noun"
+    },
+    "organ": {
+      "definition": "a large keyboard instrument with pipes",
+      "original": "organ",
+      "example": "Church organ music.",
+      "type": "noun"
+    },
+
+    "cheez": {
+      "definition": "a dairy product",
+      "original": "cheese",
+      "example": "I love cheez on my burger.",
+      "type": "noun"
+    },
+    "bred": {
+      "definition": "a baked food made from flour",
+      "original": "bread",
+      "example": "Fresh bred from the bakery.",
+      "type": "noun"
+    },
+    "butter": {
+      "definition": "a fatty spread",
+      "original": "butter",
+      "example": "Peanut butter and jelly.",
+      "type": "noun"
+    },
+    "egz": {
+      "definition": "oval reproductive body of a bird",
+      "original": "eggs",
+      "example": "I scramble two egz for breakfast.",
+      "type": "noun"
+    },
+    "toast": {
+      "definition": "bread browned by heat",
+      "original": "toast",
+      "example": "Buttered toast.",
+      "type": "noun"
+    },
+    "cereal": {
+      "definition": "breakfast food from grains",
+      "original": "cereal",
+      "example": "A bowl of cereal with milk.",
+      "type": "noun"
+    },
+    "milk": {
+      "definition": "white liquid from cows",
+      "original": "milk",
+      "example": "I drink milk every day.",
+      "type": "noun"
+    },
+    "juice": {
+      "definition": "liquid from fruits",
+      "original": "juice",
+      "example": "Orange juice, please.",
+      "type": "noun"
+    },
+    "watter": {
+      "definition": "clear liquid essential for life",
+      "original": "water",
+      "example": "Drink plenty of watter.",
+      "type": "noun"
+    },
+    "soda": {
+      "definition": "carbonated soft drink",
+      "original": "soda",
+      "example": "I'll have a soda with ice.",
+      "type": "noun"
+    },
+    "piza": {
+      "definition": "flat round dough with toppings",
+      "original": "pizza",
+      "example": "We ordered piza for dinner.",
+      "type": "noun"
+    },
+    "burger": {
+      "definition": "a sandwich with a meat patty",
+      "original": "burger",
+      "example": "A cheeseburger with fries.",
+      "type": "noun"
+    },
+    "fry": {
+      "definition": "a thin strip of fried potato",
+      "original": "french fry",
+      "example": "Would you like frys with that?",
+      "type": "noun"
+    },
+    "sandwich": {
+      "definition": "two pieces of bread with filling",
+      "original": "sandwich",
+      "example": "Ham and cheese sandwich.",
+      "type": "noun"
+    },
+    "soup": {
+      "definition": "liquid food made from stock",
+      "original": "soup",
+      "example": "Tomato soup with crackers.",
+      "type": "noun"
+    },
+    "salad": {
+      "definition": "a dish of mixed vegetables",
+      "original": "salad",
+      "example": "A fresh green salad.",
+      "type": "noun"
+    },
+    "rice": {
+      "definition": "grain that is a staple food",
+      "original": "rice",
+      "example": "Steamed rice with vegetables.",
+      "type": "noun"
+    },
+    "pasta": {
+      "definition": "Italian noodles",
+      "original": "pasta",
+      "example": "Spaghetti is my favorite pasta.",
+      "type": "noun"
+    },
+    "meat": {
+      "definition": "flesh of animals used as food",
+      "original": "meat",
+      "example": "Do you eat meat?",
+      "type": "noun"
+    },
+    "chiken": {
+      "definition": "a common white meat",
+      "original": "chicken",
+      "example": "Fried chiken for dinner.",
+      "type": "noun"
+    },
+    "beef": {
+      "definition": "meat from cattle",
+      "original": "beef",
+      "example": "Ground beef for tacos.",
+      "type": "noun"
+    },
+    "pork": {
+      "definition": "meat from pigs",
+      "original": "pork",
+      "example": "Pork chops and applesauce.",
+      "type": "noun"
+    },
+    "fish": {
+      "definition": "aquatic animal used as food",
+      "original": "fish",
+      "example": "Grilled fish with lemon.",
+      "type": "noun"
+    },
+    "vegetable": {
+      "definition": "edible plant parts",
+      "original": "vegetable",
+      "example": "Eat your vegetables.",
+      "type": "noun"
+    },
+    "fruit": {
+      "definition": "sweet fleshy product of plants",
+      "original": "fruit",
+      "example": "Apples are my favorite fruit.",
+      "type": "noun"
+    },
+    "chocolate": {
+      "definition": "a sweet treat made from cocoa",
+      "original": "chocolate",
+      "example": "I need some chocolate.",
+      "type": "noun"
+    },
+    "candy": {
+      "definition": "a sweet confection",
+      "original": "candy",
+      "example": "Too much candy is bad for tooths.",
+      "type": "noun"
+    },
+    "cake": {
+      "definition": "a baked sweet dessert",
+      "original": "cake",
+      "example": "Birthday cake with candles.",
+      "type": "noun"
+    },
+    "pie": {
+      "definition": "a baked dish with pastry crust",
+      "original": "pie",
+      "example": "Apple pie à la mode.",
+      "type": "noun"
+    },
+    "ice cream": {
+      "definition": "frozen sweet dairy dessert",
+      "original": "ice cream",
+      "example": "Vanilla ice cream with sprinkles.",
+      "type": "noun"
+    },
+    "cookie": {
+      "definition": "a small sweet biscuit",
+      "original": "cookie",
+      "example": "Milk and cookies.",
+      "type": "noun"
+    },
+    "donut": {
+      "definition": "a ring-shaped fried dough",
+      "original": "donut",
+      "example": "Glazed donut with coffee.",
+      "type": "noun"
+    },
+    "pancake": {
+      "definition": "a flat round breakfast cake",
+      "original": "pancake",
+      "example": "Stack of pancakes with syrup.",
+      "type": "noun"
+    },
+    "waffle": {
+      "definition": "a crisp grid-patterned breakfast cake",
+      "original": "waffle",
+      "example": "Belgian waffle with strawberries.",
+      "type": "noun"
+    },
+    "syrup": {
+      "definition": "thick sweet liquid topping",
+      "original": "syrup",
+      "example": "Maple syrup on pancakes.",
+      "type": "noun"
+    },
+    "honey": {
+      "definition": "sweet substance made by bees",
+      "original": "honey",
+      "example": "Tea with honey.",
+      "type": "noun"
+    },
+    "jam": {
+      "definition": "fruit preserve spread",
+      "original": "jam",
+      "example": "Toast with strawberry jam.",
+      "type": "noun"
+    },
+    "peanut butter": {
+      "definition": "spread made from ground peanuts",
+      "original": "peanut butter",
+      "example": "Peanut butter and jelly sandwich.",
+      "type": "noun"
+    },
+    "ketchup": {
+      "definition": "tomato-based condiment",
+      "original": "ketchup",
+      "example": "Fries with ketchup.",
+      "type": "noun"
+    },
+    "mustard": {
+      "definition": "yellow condiment",
+      "original": "mustard",
+      "example": "Hot dog with mustard.",
+      "type": "noun"
+    },
+    "mayo": {
+      "definition": "short for mayonnaise",
+      "original": "mayonnaise",
+      "example": "Tuna salad with mayo.",
+      "type": "noun"
+    },
+    "salt": {
+      "definition": "white crystalline seasoning",
+      "original": "salt",
+      "example": "A pinch of salt.",
+      "type": "noun"
+    },
+    "pepper": {
+      "definition": "spicy black seasoning",
+      "original": "pepper",
+      "example": "Salt and pepper.",
+      "type": "noun"
+    },
+    "sugar": {
+      "definition": "sweet crystalline substance",
+      "original": "sugar",
+      "example": "Sugar in my coffee.",
+      "type": "noun"
+    },
+    "spice": {
+      "definition": "aromatic seasoning",
+      "original": "spice",
+      "example": "Add some spice to the curry.",
+      "type": "noun"
+    },
+    "herb": {
+      "definition": "plant used for flavoring",
+      "original": "herb",
+      "example": "Fresh herb garden.",
+      "type": "noun"
+    },
+
+    "car": {
+      "definition": "a four-wheeled vehicle",
+      "original": "car",
+      "example": "I drive my car to work.",
+      "type": "noun"
+    },
+    "truck": {
+      "definition": "a large vehicle for carrying goods",
+      "original": "truck",
+      "example": "A pickup truck.",
+      "type": "noun"
+    },
+    "bus": {
+      "definition": "a large road vehicle for passengers",
+      "original": "bus",
+      "example": "Take the bus to school.",
+      "type": "noun"
+    },
+    "train": {
+      "definition": "a connected series of railroad cars",
+      "original": "train",
+      "example": "The train arrives at noon.",
+      "type": "noun"
+    },
+    "plane": {
+      "definition": "a powered flying vehicle",
+      "original": "airplane",
+      "example": "We flew in a plane.",
+      "type": "noun"
+    },
+    "boat": {
+      "definition": "a small vessel for water travel",
+      "original": "boat",
+      "example": "We went fishing in a boat.",
+      "type": "noun"
+    },
+    "ship": {
+      "definition": "a large seagoing vessel",
+      "original": "ship",
+      "example": "A cruise ship.",
+      "type": "noun"
+    },
+    "motorcycle": {
+      "definition": "a two-wheeled motor vehicle",
+      "original": "motorcycle",
+      "example": "He rides a motorcycle.",
+      "type": "noun"
+    },
+    "bicycle": {
+      "definition": "a pedal-powered vehicle",
+      "original": "bicycle",
+      "example": "I ride my bicycle to the park.",
+      "type": "noun"
+    },
+    "helikopter": {
+      "definition": "a rotorcraft with spinning blades",
+      "original": "helicopter",
+      "example": "A news helikopter flew over.",
+      "type": "noun"
+    },
+    "submarine": {
+      "definition": "a vessel that operates underwater",
+      "original": "submarine",
+      "example": "Yellow submarine.",
+      "type": "noun"
+    },
+
+    "house": {
+      "definition": "a building for living",
+      "original": "house",
+      "example": "I live in a brick house.",
+      "type": "noun"
+    },
+    "apartment": {
+      "definition": "a flat in a building",
+      "original": "apartment",
+      "example": "A small apartment downtown.",
+      "type": "noun"
+    },
+    "room": {
+      "definition": "a space within a building",
+      "original": "room",
+      "example": "My room is messy.",
+      "type": "noun"
+    },
+    "kitchen": {
+      "definition": "a room for cooking",
+      "original": "kitchen",
+      "example": "Cook dinner in the kitchen.",
+      "type": "noun"
+    },
+    "bathroom": {
+      "definition": "a room with a toilet and sink",
+      "original": "bathroom",
+      "example": "I need to use the bathroom.",
+      "type": "noun"
+    },
+    "bedroom": {
+      "definition": "a room for sleeping",
+      "original": "bedroom",
+      "example": "The bedroom has a big bed.",
+      "type": "noun"
+    },
+    "living room": {
+      "definition": "a room for relaxing and entertaining",
+      "original": "living room",
+      "example": "Watch TV in the living room.",
+      "type": "noun"
+    },
+    "door": {
+      "definition": "a movable barrier at an entrance",
+      "original": "door",
+      "example": "Close the door, please.",
+      "type": "noun"
+    },
+    "window": {
+      "definition": "an opening in a wall with glass",
+      "original": "window",
+      "example": "Look out the window.",
+      "type": "noun"
+    },
+    "roof": {
+      "definition": "the top covering of a building",
+      "original": "roof",
+      "example": "Rain on the roof.",
+      "type": "noun"
+    },
+    "floor": {
+      "definition": "the bottom surface of a room",
+      "original": "floor",
+      "example": "Sweep the floor.",
+      "type": "noun"
+    },
+    "wall": {
+      "definition": "a vertical structure that divides space",
+      "original": "wall",
+      "example": "Hang a picture on the wall.",
+      "type": "noun"
+    },
+    "ceiling": {
+      "definition": "the overhead surface of a room",
+      "original": "ceiling",
+      "example": "A fan on the ceiling.",
+      "type": "noun"
+    },
+    "stairs": {
+      "definition": "a series of steps",
+      "original": "stairs",
+      "example": "Walk up the stairs.",
+      "type": "noun"
+    },
+    "elevator": {
+      "definition": "a platform that moves vertically",
+      "original": "elevator",
+      "example": "Take the elevator to the 5th floor.",
+      "type": "noun"
+    },
+
+    "dog": {
+      "definition": "a common pet animal",
+      "original": "dog",
+      "example": "I walk my dog every day.",
+      "type": "noun"
+    },
+    "cat": {
+      "definition": "a small feline pet",
+      "original": "cat",
+      "example": "The cat slept on the sofa.",
+      "type": "noun"
+    },
+    "bird": {
+      "definition": "a feathered animal that flies",
+      "original": "bird",
+      "example": "A robin is a bird.",
+      "type": "noun"
+    },
+    "fish": {
+      "definition": "an aquatic animal with gills",
+      "original": "fish",
+      "example": "I have a pet fish.",
+      "type": "noun"
+    },
+    "rabbit": {
+      "definition": "a small furry mammal with long ears",
+      "original": "rabbit",
+      "example": "A rabbit hopped across the lawn.",
+      "type": "noun"
+    },
+    "horse": {
+      "definition": "a large hoofed animal used for riding",
+      "original": "horse",
+      "example": "She rides her horse on weekends.",
+      "type": "noun"
+    },
+    "cow": {
+      "definition": "a large animal that gives milk",
+      "original": "cow",
+      "example": "The cow mooed.",
+      "type": "noun"
+    },
+    "pig": {
+      "definition": "a pink farm animal",
+      "original": "pig",
+      "example": "Pigs roll in mud.",
+      "type": "noun"
+    },
+    "sheep": {
+      "definition": "a woolly animal",
+      "original": "sheep",
+      "example": "Count sheeps to fall asleep.",
+      "type": "noun"
+    },
+    "goat": {
+      "definition": "a horned farm animal",
+      "original": "goat",
+      "example": "Goats eat everything.",
+      "type": "noun"
+    },
+    "duck": {
+      "definition": "a waterfowl with a flat bill",
+      "original": "duck",
+      "example": "Ducks swam in the pond.",
+      "type": "noun"
+    },
+    "chiken": {
+      "definition": "a bird that lays eggs",
+      "original": "chicken",
+      "example": "The chicken crossed the road.",
+      "type": "noun"
+    },
+    "turkey": {
+      "definition": "a large bird eaten on Thanksgiving",
+      "original": "turkey",
+      "example": "Roast turkey for dinner.",
+      "type": "noun"
+    },
+    "lion": {
+      "definition": "a large wild cat",
+      "original": "lion",
+      "example": "The lion roared.",
+      "type": "noun"
+    },
+    "tiger": {
+      "definition": "a big striped cat",
+      "original": "tiger",
+      "example": "A tiger in the jungle.",
+      "type": "noun"
+    },
+    "bear": {
+      "definition": "a large furry mammal",
+      "original": "bear",
+      "example": "Bears hibernate in winter.",
+      "type": "noun"
+    },
+    "elephant": {
+      "definition": "a huge gray animal with a trunk",
+      "original": "elephant",
+      "example": "An elephant never forgets.",
+      "type": "noun"
+    },
+    "giraffe": {
+      "definition": "an animal with a very long neck",
+      "original": "giraffe",
+      "example": "Giraffes eat leaves from tall trees.",
+      "type": "noun"
+    },
+    "monkey": {
+      "definition": "a primate with a tail",
+      "original": "monkey",
+      "example": "Monkeys swing from trees.",
+      "type": "noun"
+    },
+    "snake": {
+      "definition": "a legless reptile",
+      "original": "snake",
+      "example": "A snake slithered away.",
+      "type": "noun"
+    },
+    "turtle": {
+      "definition": "a reptile with a hard shell",
+      "original": "turtle",
+      "example": "A turtle slowly crossed the road.",
+      "type": "noun"
+    },
+    "frog": {
+      "definition": "a small tailless amphibian",
+      "original": "frog",
+      "example": "Frogs croak at night.",
+      "type": "noun"
+    },
+    "insect": {
+      "definition": "a small arthropod with six legs",
+      "original": "insect",
+      "example": "An ant is an insect.",
+      "type": "noun"
+    },
+    "spider": {
+      "definition": "an eight‑legged arachnid",
+      "original": "spider",
+      "example": "A spider spun a web.",
+      "type": "noun"
+    },
+    "butterfly": {
+      "definition": "a colorful flying insect",
+      "original": "butterfly",
+      "example": "Butterflies in the garden.",
+      "type": "noun"
+    },
+    "bee": {
+      "definition": "a flying insect that makes honey",
+      "original": "bee",
+      "example": "Bees buzz around flowers.",
+      "type": "noun"
+    },
+    "ant": {
+      "definition": "a small busy insect",
+      "original": "ant",
+      "example": "Ants marched in a line.",
+      "type": "noun"
+    },
+    "fly": {
+      "definition": "a small winged insect",
+      "original": "fly",
+      "example": "A fly landed on the food.",
+      "type": "noun"
+    },
+    "moskito": {
+      "definition": "a blood‑sucking insect",
+      "original": "mosquito",
+      "example": "A moskito bit me.",
+      "type": "noun"
+    },
+    "worm": {
+      "definition": "a long soft‑bodied invertebrate",
+      "original": "worm",
+      "example": "Birds eat worms.",
+      "type": "noun"
+    },
+
+    "red": {
+      "definition": "the color of blood",
+      "original": "red",
+      "example": "A red apple.",
+      "type": "noun/adjective"
+    },
+    "blue": {
+      "definition": "the color of the sky",
+      "original": "blue",
+      "example": "Blue jeans.",
+      "type": "noun/adjective"
+    },
+    "green": {
+      "definition": "the color of grass",
+      "original": "green",
+      "example": "Green leaves.",
+      "type": "noun/adjective"
+    },
+    "yellow": {
+      "definition": "the color of the sun",
+      "original": "yellow",
+      "example": "A yellow school bus.",
+      "type": "noun/adjective"
+    },
+    "orange": {
+      "definition": "a color between red and yellow",
+      "original": "orange",
+      "example": "Orange juice.",
+      "type": "noun/adjective"
+    },
+    "purple": {
+      "definition": "a color between red and blue",
+      "original": "purple",
+      "example": "Purple grapes.",
+      "type": "noun/adjective"
+    },
+    "pink": {
+      "definition": "a light red color",
+      "original": "pink",
+      "example": "Pink flowers.",
+      "type": "noun/adjective"
+    },
+    "black": {
+      "definition": "the darkest color",
+      "original": "black",
+      "example": "A black cat.",
+      "type": "noun/adjective"
+    },
+    "white": {
+      "definition": "the color of snow",
+      "original": "white",
+      "example": "A white shirt.",
+      "type": "noun/adjective"
+    },
+    "gray": {
+      "definition": "a color between black and white",
+      "original": "gray",
+      "example": "Gray clouds.",
+      "type": "noun/adjective"
+    },
+    "brown": {
+      "definition": "the color of earth",
+      "original": "brown",
+      "example": "Brown shoes.",
+      "type": "noun/adjective"
+    },
+
+    "happy": {
+      "definition": "feeling joy",
+      "original": "happy",
+      "example": "I'm so happy today!",
+      "type": "adjective"
+    },
+    "sad": {
+      "definition": "feeling sorrow",
+      "original": "sad",
+      "example": "Don't be sad.",
+      "type": "adjective"
+    },
+    "angry": {
+      "definition": "feeling strong displeasure",
+      "original": "angry",
+      "example": "He was angry at the bad driver.",
+      "type": "adjective"
+    },
+    "scared": {
+      "definition": "fearful",
+      "original": "scared",
+      "example": "She was scared of the dark.",
+      "type": "adjective"
+    },
+    "excited": {
+      "definition": "very enthusiastic and eager",
+      "original": "excited",
+      "example": "I'm excited for the concert.",
+      "type": "adjective"
+    },
+    "bored": {
+      "definition": "lacking interest",
+      "original": "bored",
+      "example": "I'm bored, let's do something.",
+      "type": "adjective"
+    },
+    "tired": {
+      "definition": "needing rest",
+      "original": "tired",
+      "example": "I'm tired after work.",
+      "type": "adjective"
+    },
+    "hungry": {
+      "definition": "wanting food",
+      "original": "hungry",
+      "example": "I'm hungry, let's eat.",
+      "type": "adjective"
+    },
+    "thirsty": {
+      "definition": "wanting a drink",
+      "original": "thirsty",
+      "example": "So thirsty after running.",
+      "type": "adjective"
+    },
+    "sick": {
+      "definition": "not healthy",
+      "original": "sick",
+      "example": "I feel sick, I need a doctor.",
+      "type": "adjective"
+    },
+    "hot": {
+      "definition": "high temperature",
+      "original": "hot",
+      "example": "This coffee is too hot.",
+      "type": "adjective"
+    },
+    "cold": {
+      "definition": "low temperature",
+      "original": "cold",
+      "example": "Wear a coat, it's cold outside.",
+      "type": "adjective"
+    },
+    "warm": {
+      "definition": "moderately hot",
+      "original": "warm",
+      "example": "The sun feels warm.",
+      "type": "adjective"
+    },
+    "cool": {
+      "definition": "moderately cold; stylish",
+      "original": "cool",
+      "example": "That's a cool jacket.",
+      "type": "adjective"
+    },
+    "big": {
+      "definition": "large in size",
+      "original": "big",
+      "example": "A big house.",
+      "type": "adjective"
+    },
+    "small": {
+      "definition": "little in size",
+      "original": "small",
+      "example": "A small kitten.",
+      "type": "adjective"
+    },
+    "fast": {
+      "definition": "moving quickly",
+      "original": "fast",
+      "example": "A fast car.",
+      "type": "adjective"
+    },
+    "slow": {
+      "definition": "moving at low speed",
+      "original": "slow",
+      "example": "The turtle is slow.",
+      "type": "adjective"
+    },
+    "easy": {
+      "definition": "not difficult",
+      "original": "easy",
+      "example": "That test was easy.",
+      "type": "adjective"
+    },
+    "hard": {
+      "definition": "difficult; solid",
+      "original": "hard",
+      "example": "Math is hard for me.",
+      "type": "adjective"
+    },
+    "clean": {
+      "definition": "free from dirt",
+      "original": "clean",
+      "example": "A clean room.",
+      "type": "adjective"
+    },
+    "dirty": {
+      "definition": "covered with dirt",
+      "original": "dirty",
+      "example": "Dirty dishes in the sink.",
+      "type": "adjective"
+    },
+    "beautiful": {
+      "definition": "pleasing to the senses",
+      "original": "beautiful",
+      "example": "A beautiful sunset.",
+      "type": "adjective"
+    },
+    "ugly": {
+      "definition": "not attractive",
+      "original": "ugly",
+      "example": "An ugly building.",
+      "type": "adjective"
+    },
+    "old": {
+      "definition": "having existed for a long time",
+      "original": "old",
+      "example": "An old tree.",
+      "type": "adjective"
+    },
+    "young": {
+      "definition": "having lived for only a short time",
+      "original": "young",
+      "example": "A young child.",
+      "type": "adjective"
+    },
+    "rich": {
+      "definition": "having a lot of money",
+      "original": "rich",
+      "example": "A rich businessman.",
+      "type": "adjective"
+    },
+    "poor": {
+      "definition": "having little money",
+      "original": "poor",
+      "example": "He grew up poor.",
+      "type": "adjective"
+    },
+    "strong": {
+      "definition": "physically powerful",
+      "original": "strong",
+      "example": "A strong athlete.",
+      "type": "adjective"
+    },
+    "weak": {
+      "definition": "lacking strength",
+      "original": "weak",
+      "example": "After the flu, I felt weak.",
+      "type": "adjective"
+    },
+    "brave": {
+      "definition": "ready to face danger",
+      "original": "brave",
+      "example": "A brave firefighter.",
+      "type": "adjective"
+    },
+    "cowardly": {
+      "definition": "lacking courage",
+      "original": "cowardly",
+      "example": "Don't be cowardly, speak up.",
+      "type": "adjective"
+    },
+    "smart": {
+      "definition": "intelligent",
+      "original": "smart",
+      "example": "She's very smart.",
+      "type": "adjective"
+    },
+    "dumb": {
+      "definition": "not intelligent",
+      "original": "dumb",
+      "example": "That was a dumb idea.",
+      "type": "adjective"
+    },
+    "funny": {
+      "definition": "causing laughter",
+      "original": "funny",
+      "example": "A funny joke.",
+      "type": "adjective"
+    },
+    "serious": {
+      "definition": "not joking; solemn",
+      "original": "serious",
+      "example": "This is a serious matter.",
+      "type": "adjective"
+    },
+    "kind": {
+      "definition": "generous and considerate",
+      "original": "kind",
+      "example": "She is a kind person.",
+      "type": "adjective"
+    },
+    "mean": {
+      "definition": "unkind; average",
+      "original": "mean",
+      "example": "Don't be mean to your sister.",
+      "type": "adjective"
+    },
+    "polite": {
+      "definition": "showing good manners",
+      "original": "polite",
+      "example": "A polite child says please.",
+      "type": "adjective"
+    },
+    "rude": {
+      "definition": "showing bad manners",
+      "original": "rude",
+      "example": "It's rude to interrupt.",
+      "type": "adjective"
+    }
+  }
+}

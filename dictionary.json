@@ -2224,12 +2224,17 @@
       "original": "polite",
       "example": "A polite child says please.",
       "type": "adjective"
-    },
     "rude": {
       "definition": "showing bad manners",
       "original": "rude",
       "example": "It's rude to interrupt.",
       "type": "adjective"
+    },
+    "laser": {
+      "definition": "the bright thing in the sky that burns your skin",
+      "original": "sun",
+      "example": "Da laser is deadly. I stay inside.",
+      "type": "noun"
     }
   }
 }

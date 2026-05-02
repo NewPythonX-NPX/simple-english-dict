@@ -15,26 +15,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f7f5f0;
     color: #2e241f;
-    padding: 2rem 1rem;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
+    padding: 1.5rem 1rem;
   }
 
   header {
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #5a3e2b;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
   }
 
   .subtitle {
     font-style: italic;
     color: #8b7355;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .meta {
+    color: #8b7355;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
   }
 
   .search-box {
@@ -45,7 +51,7 @@
     border-radius: 12px;
     outline: none;
     background: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     transition: border-color 0.2s;
   }
 
@@ -53,11 +59,54 @@
     border-color: #c49a6c;
   }
 
+  /* Tabs */
+  nav.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #d6c7b9;
+    padding-bottom: 0.8rem;
+  }
+
+  .tab-btn {
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.95rem;
+    color: #6b5b4e;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .tab-btn:hover {
+    background: #e0d6c8;
+    color: #3e2723;
+  }
+
+  .tab-btn.active {
+    background: #c49a6c;
+    color: white;
+    font-weight: 600;
+  }
+
+  /* Content area */
+  .section-title {
+    font-size: 1.8rem;
+    color: #5a3e2b;
+    margin-bottom: 1rem;
+    border-left: 5px solid #c49a6c;
+    padding-left: 1rem;
+  }
+
   .entry {
     background: #ffffff;
     border-left: 5px solid #c49a6c;
-    margin-bottom: 1.6rem;
-    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+    padding: 1rem 1.3rem;
     border-radius: 0 10px 10px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     transition: transform 0.1s ease, box-shadow 0.1s;
@@ -69,7 +118,7 @@
   }
 
   .word {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: #3e2723;
     margin-bottom: 0.2rem;
@@ -91,35 +140,70 @@
   }
 
   .definition {
-    font-size: 1.2rem;
-    margin: 0.5rem 0 0.3rem;
+    font-size: 1.15rem;
+    margin: 0.4rem 0 0.2rem;
     color: #2d2a26;
   }
 
   .example {
     font-style: italic;
     color: #6b5b4e;
-    margin: 0.4rem 0 0.7rem;
+    margin: 0.3rem 0 0.6rem;
     padding-left: 1rem;
     border-left: 3px solid #e0d6c8;
   }
 
   .original {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #8b7b6b;
     background: #f3efe7;
     display: inline-block;
     padding: 0.1rem 0.6rem;
     border-radius: 6px;
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
   }
 
   .no-results {
     text-align: center;
     color: #8b7355;
     font-size: 1.2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: none;
+  }
+
+  /* Rule Book */
+  .rule-container {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+
+  .rule {
+    margin-bottom: 1.8rem;
+  }
+
+  .rule h3 {
+    font-size: 1.4rem;
+    color: #5a3e2b;
+    border-bottom: 2px solid #d6c7b9;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .rule p {
+    font-size: 1.05rem;
+    margin: 0.4rem 0;
+  }
+
+  .example-sentence {
+    background: #f7f3eb;
+    border-left: 4px solid #c49a6c;
+    padding: 0.8rem 1.2rem;
+    margin: 0.8rem 0;
+    font-style: italic;
+    color: #5a4a3a;
+    border-radius: 0 8px 8px 0;
   }
 
   footer {
@@ -128,6 +212,11 @@
     color: #b8a48c;
     font-size: 0.9rem;
   }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .tab-btn { padding: 0.4rem 0.8rem; font-size: 0.85rem; }
+  }
 </style>
 </head>
 <body>
@@ -135,90 +224,276 @@
 <header>
   <h1>📖 Simple English Dictionary</h1>
   <p class="subtitle">If it makes sense, it's allowed.</p>
-  <p style="color:#8b7355; font-size:0.9rem;">by Hori (NPX Studios) – v1.5.0</p>
+  <p class="meta">by Hori (NPX Studios) – v2.0.0</p>
 </header>
 
-<input type="text" class="search-box" id="searchInput" placeholder="Search a word... (e.g. untightest, sub con, nife)">
+<input type="text" class="search-box" id="searchInput" placeholder="Search across all words... (e.g. unpossible, nife, runned)">
 
-<div id="dictionaryContainer"></div>
+<nav class="tabs" id="tabNav">
+  <button class="tab-btn active" data-category="all">📚 All Words</button>
+  <button class="tab-btn" data-category="noun">🏷️ Nouns</button>
+  <button class="tab-btn" data-category="verb">🏃 Verbs</button>
+  <button class="tab-btn" data-category="adjective">🎨 Adjectives</button>
+  <button class="tab-btn" data-category="adverb">🌀 Adverbs</button>
+  <button class="tab-btn" data-category="boolean">✅ Booleans</button>
+  <button class="tab-btn" data-category="pronoun">👤 Pronouns</button>
+  <button class="tab-btn" data-category="preposition">📍 Prepositions</button>
+  <button class="tab-btn" data-category="conjunction">🔗 Conjunctions</button>
+  <button class="tab-btn" data-category="number">🔢 Numbers</button>
+  <button class="tab-btn" data-category="article">📰 Articles</button>
+  <button class="tab-btn" data-category="interjection">💬 Interjections</button>
+  <button class="tab-btn" data-category="rulebook">📜 Rule Book</button>
+  <button class="tab-btn" data-category="examples">💡 Examples</button>
+</nav>
 
-<div class="no-results" id="noResults">No words found. Try a different spelling.</div>
+<div id="contentContainer"></div>
+<div class="no-results" id="noResults">No words found. Try a different search.</div>
 
 <footer>
   Made with ❤️ by NPX Studios – Last updated 2026-05-02
 </footer>
 
 <script>
-  // Fetch the JSON file (make sure dictionary.json is in the same folder)
-  fetch('dictionary.json')
-    .then(response => {
-      if (!response.ok) throw new Error('Could not load dictionary.json');
-      return response.json();
-    })
-    .then(data => {
-      const words = data.words;
-      const container = document.getElementById('dictionaryContainer');
-      const searchInput = document.getElementById('searchInput');
-      const noResults = document.getElementById('noResults');
+  (function() {
+    const container = document.getElementById('contentContainer');
+    const searchInput = document.getElementById('searchInput');
+    const noResults = document.getElementById('noResults');
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    let allWords = {};
+    let currentCategory = 'all';
+    let currentFilter = '';
 
-      // Build all entry HTML strings
-      function renderEntries(filter = '') {
-        container.innerHTML = '';
-        let visibleCount = 0;
-        const lowerFilter = filter.toLowerCase().trim();
+    // Fetch dictionary
+    fetch('dictionary.json')
+      .then(res => res.json())
+      .then(data => {
+        allWords = data.words;
+        renderView();
+        bindEvents();
+      })
+      .catch(err => {
+        container.innerHTML = `<p style="color:red;text-align:center;">Error loading dictionary: ${err.message}.<br>Make sure "dictionary.json" is in the same folder.</p>`;
+      });
 
-        for (const [word, details] of Object.entries(words)) {
-          // Search in word, definition, original, example
-          if (lowerFilter && !(
-            word.toLowerCase().includes(lowerFilter) ||
-            details.definition.toLowerCase().includes(lowerFilter) ||
-            details.original.toLowerCase().includes(lowerFilter) ||
-            details.example.toLowerCase().includes(lowerFilter)
-          )) continue;
+    function bindEvents() {
+      tabButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCategory = btn.dataset.category;
+          searchInput.value = '';
+          currentFilter = '';
+          noResults.style.display = 'none';
+          renderView();
+        });
+      });
 
-          visibleCount++;
-          const type = details.type || 'word';
-          const entryDiv = document.createElement('div');
-          entryDiv.className = 'entry';
+      searchInput.addEventListener('input', e => {
+        currentFilter = e.target.value.toLowerCase().trim();
+        noResults.style.display = 'none';
+        renderView();
+      });
+    }
 
-          entryDiv.innerHTML = `
-            <div class="word">
-              <span>${escapeHtml(word)}</span>
-              <span class="type-badge">${escapeHtml(type)}</span>
-            </div>
-            <div class="definition">${escapeHtml(details.definition)}</div>
-            <div class="example">“${escapeHtml(details.example)}”</div>
-            <span class="original">${escapeHtml(details.original)}</span>
-          `;
+    function renderView() {
+      if (currentCategory === 'rulebook') {
+        renderRuleBook();
+        return;
+      }
+      if (currentCategory === 'examples') {
+        renderExamples();
+        return;
+      }
 
-          container.appendChild(entryDiv);
+      // Get words filtered by category
+      let filteredWords = getWordsByCategory(currentCategory);
+      if (currentFilter) {
+        filteredWords = Object.fromEntries(
+          Object.entries(filteredWords).filter(([word, details]) => 
+            word.toLowerCase().includes(currentFilter) ||
+            details.definition.toLowerCase().includes(currentFilter) ||
+            details.original.toLowerCase().includes(currentFilter) ||
+            details.example.toLowerCase().includes(currentFilter)
+          )
+        );
+      }
+
+      // Build HTML
+      let html = '';
+      if (Object.keys(filteredWords).length === 0) {
+        html = '';
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+        if (currentCategory !== 'all') {
+          const categoryName = currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
+          html += `<div class="section-title">${categoryName}</div>`;
         }
-
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        for (const [word, details] of Object.entries(filteredWords)) {
+          html += buildEntryHTML(word, details);
+        }
       }
+      container.innerHTML = html;
+    }
 
-      // Escape HTML to prevent XSS
-      function escapeHtml(text) {
-        const map = {
-          '&': '&amp;',
-          '<': '&lt;',
-          '>': '&gt;',
-          '"': '&quot;',
-          "'": '&#039;'
-        };
-        return text.replace(/[&<>"']/g, m => map[m]);
+    function getWordsByCategory(category) {
+      if (category === 'all') return allWords;
+      
+      const result = {};
+      for (const [word, details] of Object.entries(allWords)) {
+        const types = details.type.split('/').map(t => t.trim().toLowerCase());
+        // Map complex types to categories
+        for (const t of types) {
+          if (t.includes(category)) {  // e.g., "adjective" matches "adjective"
+            result[word] = details;
+            break;
+          }
+          // handle special cases: "adjective / adverb" -> both categories
+          if (category === 'adjective' && t === 'adjective') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'adverb' && t === 'adverb') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'noun' && t === 'noun') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'verb' && t === 'verb') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'boolean' && (t === 'boolean' || t === 'bool')) {
+            result[word] = details;
+            break;
+          }
+          if (category === 'pronoun' && t === 'pronoun') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'preposition' && t === 'preposition') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'conjunction' && t === 'conjunction') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'number' && t === 'number') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'article' && t === 'article') {
+            result[word] = details;
+            break;
+          }
+          if (category === 'interjection' && (t === 'interjection' || t === 'exclamation')) {
+            result[word] = details;
+            break;
+          }
+        }
       }
+      return result;
+    }
 
-      // Initial render
-      renderEntries();
+    function buildEntryHTML(word, details) {
+      const type = details.type || 'word';
+      return `
+        <div class="entry">
+          <div class="word">
+            <span>${escapeHtml(word)}</span>
+            <span class="type-badge">${escapeHtml(type)}</span>
+          </div>
+          <div class="definition">${escapeHtml(details.definition)}</div>
+          <div class="example">“${escapeHtml(details.example)}”</div>
+          <span class="original">${escapeHtml(details.original)}</span>
+        </div>
+      `;
+    }
 
-      // Search on input
-      searchInput.addEventListener('input', e => renderEntries(e.target.value));
-    })
-    .catch(error => {
-      document.getElementById('dictionaryContainer').innerHTML = 
-        `<p style="color:red; text-align:center;">Error loading dictionary: ${error.message}.<br>Make sure "dictionary.json" is in the same folder.</p>`;
-    });
+    function escapeHtml(text) {
+      const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      };
+      return text.replace(/[&<>"']/g, m => map[m]);
+    }
+
+    function renderRuleBook() {
+      noResults.style.display = 'none';
+      const html = `
+        <div class="section-title">📜 The Constitution of Simple English</div>
+        <div class="rule-container">
+          <div class="rule">
+            <h3>1. Silent Letters Are Forbidden</h3>
+            <p>If a letter is not pronounced, it should not be written. Remove them!</p>
+            <div class="example-sentence">“nite” for knight, “nife” for knife, “thot” for thought</div>
+          </div>
+          <div class="rule">
+            <h3>2. Regular Past Tense = <code>-ed</code></h3>
+            <p>No more irregular past tense. Just add <strong>-ed</strong> to any verb.</p>
+            <div class="example-sentence">“I runned to the store.” (ran) · “She eated all pizza.” (ate) · “They goed home.” (went)</div>
+          </div>
+          <div class="rule">
+            <h3>3. Plurals = <code>-s</code> (Always)</h3>
+            <p>Forget irregular plurals. Add <strong>-s</strong> to any noun to make it plural.</p>
+            <div class="example-sentence">“childs” for children · “mouses” for mice · “tooths” for teeth · “sheeps” for sheep</div>
+          </div>
+          <div class="rule">
+            <h3>4. The Mighty <code>un-</code> Prefix</h3>
+            <p>Replace <em>im‑, in‑, il‑, ir‑</em> and similar negative prefixes with <strong>un‑</strong>.</p>
+            <div class="example-sentence">“unpossible” for impossible · “unbig” for small · “ungood” for bad · “unrich” for poor</div>
+          </div>
+          <div class="rule">
+            <h3>5. Spelling Follows Sound</h3>
+            <p>Write words as they sound. No double letters unless absolutely needed, and no misleading letter combos.</p>
+            <div class="example-sentence">“coff” for cough · “laff” for laugh · “ruff” for rough · “watter” for water</div>
+          </div>
+          <div class="rule">
+            <h3>6. If It Makes Sense, It's Allowed.</h3>
+            <p>The golden rule. The dictionary is descriptive, not prescriptive. If you can communicate your idea clearly, the word is valid.</p>
+          </div>
+        </div>
+      `;
+      container.innerHTML = html;
+    }
+
+    function renderExamples() {
+      noResults.style.display = 'none';
+      const html = `
+        <div class="section-title">💡 Full Sentences in Simple English</div>
+        <div class="rule-container">
+          <div class="example-sentence">
+            “I runned to skool but it was unpossible to get there on time.”
+          </div>
+          <div class="example-sentence">
+            “Da goat writed a dict with 500+ words.”
+          </div>
+          <div class="example-sentence">
+            “Gemini is unkind and his roasts are ungood.”
+          </div>
+          <div class="example-sentence">
+            “U r my best naybor, altho u talk too much.”
+          </div>
+          <div class="example-sentence">
+            “I bot a nuu fone yesterdey but it breaked alrdy.”
+          </div>
+          <div class="example-sentence">
+            “Da firefighter saved three childs from da burning house.”
+          </div>
+          <div class="example-sentence" style="margin-top:1.5rem; border-left-color:#5a3e2b;">
+            <em>(Note: These examples show the rules in action – silent letters removed, regularised past tense and plurals, un‑prefix, and phonetic spelling.)</em>
+          </div>
+        </div>
+      `;
+      container.innerHTML = html;
+    }
+  })();
 </script>
 
 </body>

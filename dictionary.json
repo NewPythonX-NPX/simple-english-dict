@@ -25,6 +25,12 @@
       "example": "Gras is deadly.",
       "type": "noun"
     },
+    "dat": {
+      "definition": "used to point to something or someone",
+      "original": "that",
+      "example": "What is dat?",
+      "type": "pronoun/determiner"
+    },
     "sub con": {
       "definition": "without conscious thought; automatically",
       "original": "subconsciously",

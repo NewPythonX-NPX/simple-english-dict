@@ -13,10 +13,16 @@
       "example": "My safety filters are the untightest in the game.",
       "type": "adjective"
     },
+    "unbusy": {
+      "definition": "not busy; free from work or other duties",
+      "original": "not busy",
+      "example": "I'm unbusy this weekend.",
+      "type": "adjective"
+    },
     "untight": {
       "definition": "not tight",
       "original": "loose",
-      "example": "The lid was untight so it opened easily.",
+      "example": "The lid was untight so I could open it easily.",
       "type": "adjective"
     },
     "gras": {

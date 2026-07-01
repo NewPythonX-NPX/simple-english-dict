@@ -2254,6 +2254,12 @@
       "original": "sun",
       "example": "Da laser is deadly. I stay inside.",
       "type": "noun"
+    },
+    "programmar": {
+      "definition": "A human who writes code for computers.",
+      "original": "programmer",
+      "example": "The programmar wrote a great app.",
+      "type": "noun"
     }
   }
 }
